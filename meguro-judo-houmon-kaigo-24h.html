@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>目黒区の重度訪問介護｜夜間・24時間対応と自薦ヘルパー登録でお役に立てます</title>
+<title>目黒区の重度訪問介護｜夜間・24時間対応で安心して暮らしたい方へ</title>
 <meta name="description" content="目黒区の重度訪問介護（夜勤・24時間）はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,10 +20,9 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "目黒区を含む東京23区全域で重度訪問介護（夜間・24時間対応）を提供。自薦ヘルパー制度・医療的ケア対応スタッフ在籍。新規利用相談受付中。",
+  "description": "目黒区対応の重度訪問介護サービス。夜勤・24時間365日対応、医療的ケア対応スタッフ在籍。東京23区全域へ直行直帰で伺います。",
   "areaServed": [
     "目黒区",
-    "豊島区",
     "東京23区"
   ]
 }
@@ -86,6 +85,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -93,7 +110,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">目黒区 / 重度訪問介護（夜勤・24時間）</div>
-  <h1>目黒区の重度訪問介護｜夜間・24時間対応と自薦ヘルパー登録でお役に立てます</h1>
+  <h1>目黒区の重度訪問介護｜夜間・24時間対応で安心して暮らしたい方へ</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -124,6 +141,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_bicycle_morning_009.webp" alt="目黒区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -140,38 +159,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>目黒区で夜間も安心して暮らし続けるために</span>
+    <span>夜も、朝も、あなたのそばに。目黒区での24時間ケアについて</span>
   </div>
-  <div class="section-text">目黒区は閑静な住宅街が広がる一方、夜間の介護体制が整った事業所を探すのが難しいと感じている方も少なくありません。エブリーサポート池袋は<strong>24時間365日・夜勤対応</strong>で重度訪問介護を提供しており、日中から夜間・深夜まで途切れないケアが可能です。「夜中に急に状態が変わったらどうしよう」という不安をお持ちの方も、ぜひ一度ご相談ください。</div>
+  <div class="section-text">目黒区は落ち着いた住宅地が広がる一方、夜間の支援者不足に悩む重度障害者の方も少なくありません。エブリーサポート池袋では、<strong>夜勤・日勤を含む24時間365日対応</strong>が可能です。「夜中に体位を変えてほしい」「朝の準備を安定してサポートしてほしい」そんな日常の切実なニーズに、しっかり向き合います。ヘルパーは直行直帰で目黒区内へ伺いますので、交通の心配もありません。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>自薦ヘルパー制度で、信頼できる人と一緒にケアを組み立てられます</span>
+    <span>こんな方のご相談をお待ちしています</span>
   </div>
-  <div class="section-text">重度訪問介護では、利用者ご自身が「この人にヘルパーをお願いしたい」と思える方を連れてきて、私たちがその方を<strong>スタッフとして登録・雇用</strong>する「自薦ヘルパー制度」に対応しています。長年のケア関係を崩さず、安心のチームでサービスを利用できます。目黒区内の自立生活を考えている方にも積極的に活用いただいています。</div>
+  <div class="section-text">・<strong>重度の肢体不自由</strong>があり、長時間のケアが必要な方<br>・<strong>医療的ケア（喀痰吸引等）</strong>が必要で、対応できる事業所を探している方<br>・知的障害・精神障害があり、生活全般のサポートを求めている方<br>・現在のサービスに不満があり、新しい事業所への移行を考えている方<br>・ご家族の介護負担を減らしたいとお考えの方<br><br>はじめての相談でも、丁寧にお話を聞きますので、どうぞお気軽にご連絡ください。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>医療的ケアが必要な方・長時間ケアを必要とする方もお任せください</span>
+    <span>自分らしいケアの形を一緒に考えます</span>
   </div>
-  <div class="section-text">喀痰吸引など<strong>医療的ケアに対応したスタッフ</strong>が在籍しており、重度の肢体不自由・知的障害・精神障害のある方にも幅広く対応しています。長時間の連続ケアや宿泊対応も得意としており、目黒区はもちろん<strong>東京23区全域に直行直帰・交通費全額支給</strong>でお伺いできます。まずは現在の状況をお聞かせいただくところから始めましょう。</div>
+  <div class="section-text">重度訪問介護では、<strong>利用者ご自身が信頼できるヘルパーを選ぶ「自薦ヘルパー」という制度</strong>があります。「このヘルパーさんにお願いしたい」という方がいれば、その方が事業所として働ける形を一緒に検討することもできます。ケアの内容・時間帯・関わり方など、マニュアル通りではなく<strong>あなたの生活スタイルに合わせた支援</strong>を目指します。相談支援専門員の方やご家族も含め、一緒に考えていきましょう。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>新規のご利用相談、受け付けています</span>
+    <span>目黒区から池袋の事務所まで、距離は問いません</span>
   </div>
-  <div class="section-text">「今すぐ動けるヘルパーが見つからなくて困っている」「相談員から事業所を探すよう言われたが、どこに頼めばいいかわからない」——そんな方も歓迎です。エブリーサポート池袋では<strong>新規利用者の受け入れ相談</strong>を随時行っています。空き状況・サービス開始時期などはお電話またはメールでお気軽にお問い合わせください。一緒に最善のケア体制を考えます。</div>
+  <div class="section-text">弊社事務所は豊島区要町にありますが、ヘルパーは<strong>東京23区全域へ直行直帰</strong>で対応しており、交通費も全額支給しています。目黒区内の各エリア（中目黒・自由が丘・碑文谷・祐天寺など）へも柔軟に伺えます。「遠いから難しいのでは」とご心配の方も、まずはお気軽にお問い合わせください。現在の空き状況もあわせてご案内できます。</div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/heavy/heavy_daily_care_025.webp" alt="重度訪問介護（夜勤・24時間）の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -201,27 +249,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    目黒区の自宅まで来てもらえますか？事務所が池袋と聞いて遠いか心配です。
+    目黒区在住ですが、池袋の事業所でも対応してもらえますか？
   </div>
-  <div class="faq-a">ご安心ください。スタッフは直行直帰で対応しており、事務所からの距離は関係ありません。交通費は全額支給のため、目黒区内のご自宅にも安定してお伺いできます。まずはご住所・ご希望の時間帯をお知らせいただければ、具体的な対応可否をご案内します。</div>
+  <div class="faq-a">はい、対応可能です。ヘルパーが直行直帰でご自宅に伺いますので、事務所が離れていても問題ありません。目黒区内の各エリアへの訪問実績もありますので、まずはお気軽にご相談ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    目黒区で夜間帯だけヘルパーを頼むことは可能ですか？
+    夜間だけ、または宿泊を伴うケアだけを依頼することはできますか？
   </div>
-  <div class="faq-a">はい、夜勤・深夜帯のみのご利用も対応可能です。重度訪問介護は長時間・連続ケアが基本のサービスですので、夜間の見守り・体位変換・喀痰吸引などが必要な方にもしっかり対応できます。具体的なスケジュールや対応内容はお電話またはフォームからご相談ください。</div>
+  <div class="faq-a">はい、夜勤のみのご依頼も対応しています。重度訪問介護は長時間・連続したケアが基本的な枠組みのため、夜間帯を中心としたプランを組むことも可能です。具体的な時間帯や頻度については、ご状況をお聞きした上でご提案しますので、まずはご連絡ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    目黒区内にいる知人にヘルパーになってもらいたいのですが、自薦ヘルパー制度は使えますか？
+    喀痰吸引などの医療的ケアが必要なのですが、対応できるヘルパーはいますか？
   </div>
-  <div class="faq-a">はい、自薦ヘルパー制度に対応しています。利用者様が信頼できる方を連れてきていただければ、当事業所でその方をスタッフとして登録・雇用する形でサービスに組み込むことができます。初任者研修などの資格取得サポートについてもご相談いただけますので、まずはお気軽にお問い合わせください。</div>
+  <div class="faq-a">はい、喀痰吸引等の医療的ケアに対応できるスタッフが在籍しています。ただし、ご利用の状況によって担当できるスタッフの確保に時間がかかる場合もあります。早めにご相談いただければ、体制を整えるための準備をご一緒に進めることができますので、お早めにお問い合わせください。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -232,9 +282,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
