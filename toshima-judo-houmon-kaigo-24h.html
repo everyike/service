@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>豊島区の重度訪問介護｜24時間・夜間対応、自薦ヘルパー登録もOK</title>
+<title>豊島区の重度訪問介護｜夜勤・24時間対応・自薦ヘルパー登録もOK</title>
 <meta name="description" content="豊島区の重度訪問介護（夜勤・24時間）はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,10 +20,14 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "豊島区を拠点とした重度訪問介護の事業所です。24時間365日対応・夜間ケア・自薦ヘルパー登録・医療的ケア対応スタッフ在籍。東京23区全域に直行直帰で対応可能。",
+  "description": "豊島区を拠点に、重度訪問介護（夜勤・24時間対応）を提供。自薦ヘルパー登録・医療的ケア対応スタッフも在籍。重度の肢体不自由・知的障害・精神障害のある方の生活を24時間365日サポートします。",
   "areaServed": [
     "豊島区",
-    "東京都23区"
+    "板橋区",
+    "練馬区",
+    "文京区",
+    "新宿区",
+    "東京23区"
   ]
 }
 </script>
@@ -85,6 +89,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -92,7 +114,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">豊島区 / 重度訪問介護（夜勤・24時間）</div>
-  <h1>豊島区の重度訪問介護｜24時間・夜間対応、自薦ヘルパー登録もOK</h1>
+  <h1>豊島区の重度訪問介護｜夜勤・24時間対応・自薦ヘルパー登録もOK</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -123,6 +145,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_slope_007.webp" alt="豊島区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -139,38 +163,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>夜中のケアに不安を感じていませんか？豊島区での24時間対応について</span>
+    <span>夜間も安心して暮らしたい——豊島区で24時間対応できる重度訪問介護</span>
   </div>
-  <div class="section-text">豊島区は池袋を中心に交通の便が良い一方、夜間の介護サービスを安定して確保することは簡単ではありません。エブリーサポート池袋は<strong>24時間365日対応</strong>の重度訪問介護を提供しており、深夜・早朝の緊急時にも柔軟に対応できる体制を整えています。「夜間だけヘルパーが見つからない」というご相談も、まずはお気軽にご連絡ください。</div>
+  <div class="section-text">池袋を中心に広がる豊島区は、交通の便が良い一方、夜間でも人の動きが多く、生活リズムが多様な街です。だからこそ、<strong>「夜中に体位交換が必要」「明け方にケアが入る」</strong>という方にも、ヘルパーが確実に駆けつけられる体制を整えています。エブリーサポート池袋は豊島区に事務所を構え、<strong>夜勤・宿泊を含む24時間365日の重度訪問介護</strong>に対応しています。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>自薦ヘルパー制度に対応｜あなたが信頼できる人を登録できます</span>
+    <span>「自分で選んだヘルパーと暮らしたい」自薦ヘルパー制度に対応しています</span>
   </div>
-  <div class="section-text">「今のヘルパーさんとずっと続けたい」「家族や知人にヘルパーとして働いてもらいたい」そんな希望をお持ちの方に、<strong>自薦ヘルパー制度</strong>をご案内しています。利用者ご自身が連れてきたヘルパーを当事業所で雇用・登録できる仕組みです。豊島区内に拠点を置く当事業所だからこそ、地域で築いた関係性をそのままケアに活かしていただけます。</div>
+  <div class="section-text">重度訪問介護では、<strong>利用者自身が信頼できるヘルパーを連れてくる「自薦ヘルパー制度」</strong>を利用することができます。エブリーサポート池袋ではその方をスタッフとして登録・雇用することが可能です。「長年一緒にいてくれる人にそのまま続けてほしい」「家族と同じ感覚で接してくれる人に頼みたい」という希望も、ぜひご相談ください。CIL（自立生活センター）との連携実績もあり、自立した生活を一緒に組み立てます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>こんな方が対象です｜重度訪問介護の利用条件について</span>
+    <span>医療的ケアが必要な方も、豊島区内でしっかり対応します</span>
   </div>
-  <div class="section-text">重度訪問介護は、<strong>重度の肢体不自由・知的障害・精神障害</strong>のある方が対象の障害福祉サービスです。障害支援区分4以上の方が基本的な対象となります。「自分は使えるの？」と迷っている方も、相談員の方を介さずに直接ご相談いただけます。<strong>医療的ケア（喀痰吸引等）</strong>に対応したスタッフも在籍しておりますので、医療ニーズのある方もご相談ください。</div>
+  <div class="section-text">喀痰吸引などの<strong>医療的ケアに対応したスタッフが在籍</strong>しており、重度の肢体不自由・知的障害・精神障害のある方のケアを担っています。ヘルパーは<strong>交通費全額支給・直行直帰</strong>で動けるため、豊島区内はもちろん、通院先や外出先でのサポートにも柔軟に対応できます。「今の状態でどんな支援が使えるかわからない」という段階からでも、一緒に考えます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>豊島区在住の方へ｜スタッフが直行直帰で駆けつけます</span>
+    <span>新規のご相談、受け付けています——まず一度お話しください</span>
   </div>
-  <div class="section-text">事業所は豊島区要町にあり、区内各所へ<strong>交通費全額支給・直行直帰</strong>で対応しています。池袋・要町・千川・椎名町・大塚など、区内のどのエリアにお住まいの方にも安定したサービスを提供できます。「すでに支給量は確保しているが、ヘルパーが足りない」という方の<strong>新規受け入れも相談可能</strong>です。まずは現在の状況をお聞かせください。一緒に考えます。</div>
+  <div class="section-text">「どんな手続きが必要か」「障害支援区分がまだ決まっていない」「他の事業所から移りたい」など、<strong>どんな状況からでもご相談を歓迎します</strong>。豊島区の福祉制度に詳しいスタッフが、受給者証の取得サポートから利用開始までを丁寧にご案内します。お電話（平日9:00〜18:00）またはメール・フォームからお気軽にどうぞ。<br><strong>TEL：03-5926-9187　／　mail：info@everyike.tokyo</strong></div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/heavy/heavy_fresh_air_018.webp" alt="重度訪問介護（夜勤・24時間）の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -200,27 +253,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    豊島区内ならどのエリアでも対応できますか？
+    豊島区に住んでいますが、夜間だけのヘルパー依頼は可能ですか？
   </div>
-  <div class="faq-a">はい、池袋・要町・東池袋・大塚・巣鴨・駒込など豊島区内全域に対応しています。事業所が要町にあるため、区内であれば比較的スムーズにスタッフを派遣できます。区外の場合も東京23区全域に対応可能ですので、まずはご相談ください。</div>
+  <div class="faq-a">はい、対応可能です。夜勤・宿泊のみのご依頼も受け付けています。「日中は家族が対応できるが夜間だけが不安」という場合も、時間帯や頻度に合わせてプランを一緒に考えます。まずはご状況をお聞かせください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    夜間・宿泊の重度訪問介護も依頼できますか？
+    喀痰吸引などの医療的ケアが必要ですが、対応できるヘルパーはいますか？
   </div>
-  <div class="faq-a">はい、対応しています。夜勤・宿泊を含む長時間ケアを得意としており、深夜帯や日をまたぐケアにも対応可能です。「夜間だけ別のヘルパーを探している」「今のサービスに夜間を追加したい」といったご相談もお受けしています。まずはお電話またはお問い合わせフォームからお気軽にご連絡ください。</div>
+  <div class="faq-a">はい、喀痰吸引等の研修を修了した医療的ケア対応スタッフが在籍しています。ご利用者の状態やケア内容によって担当者を調整しますので、現在の医療・看護の状況も含めてご相談ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    以前通っていた自立生活センターの支援員をヘルパーとして登録することはできますか？
+    自薦ヘルパーとして登録したい人がいますが、その人がヘルパー資格を持っていなくても大丈夫ですか？
   </div>
-  <div class="faq-a">可能です。当事業所はCIL（自立生活センター）との連携実績があり、自薦ヘルパーの登録・雇用にも対応しています。利用者ご自身が信頼関係を築いてきた方をそのまま継続して担当にできるよう、手続きを一緒に進めます。資格要件などの詳細はお問い合わせの際にご確認ください。</div>
+  <div class="faq-a">重度訪問介護のヘルパーには一定の研修修了が必要ですが、未経験・無資格の方でも「重度訪問介護従業者養成研修」を受講することで登録が可能になります。研修の受け方や流れについてもご説明できますので、まずはご連絡ください。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -231,9 +286,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
