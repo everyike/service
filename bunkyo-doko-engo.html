@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>文京区の同行援護｜視覚障害のある方の外出をしっかりサポート</title>
+<title>文京区の同行援護｜視覚障害のある方の外出を、一緒にサポートします</title>
 <meta name="description" content="文京区の同行援護はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,14 +20,13 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "エブリーサポート池袋は、文京区を含む東京23区で同行援護・重度訪問介護・居宅介護を提供する障害福祉サービス事業所です。視覚障害のある方の通院・買い物・外出全般をヘルパーが安全にサポートします。自薦ヘルパーの登録にも対応しています。",
+  "description": "文京区の視覚障害のある方を対象とした同行援護サービス。通院・買い物・散歩・文化施設への外出など幅広く対応。豊島区に事業所があり、文京区へも直行直帰で対応可能。",
   "areaServed": [
     "文京区",
     "豊島区",
     "板橋区",
     "練馬区",
-    "新宿区",
-    "東京23区"
+    "新宿区"
   ]
 }
 </script>
@@ -89,6 +88,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -96,7 +113,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">文京区 / 同行援護</div>
-  <h1>文京区の同行援護｜視覚障害のある方の外出をしっかりサポート</h1>
+  <h1>文京区の同行援護｜視覚障害のある方の外出を、一緒にサポートします</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
@@ -123,6 +140,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_slope_007.webp" alt="文京区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -139,38 +158,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>文京区で視覚障害のある方の外出、安心して任せられますか？</span>
+    <span>文京区での外出、あきらめていませんか？</span>
   </div>
-  <div class="section-text">文京区は東京大学や複数の大病院（東京大学医学部附属病院・順天堂医院など）が集まる一方、白山・千石・本駒込などの住宅街は坂道や細い路地も多く、視覚障害のある方にとって「慣れた場所でも一人では不安」という声をよく聞きます。<br>エブリーサポート池袋の同行援護では、通院・買い物・散歩から美術館やコンサートへの外出まで、利用者の方が<strong>「行きたい」と思う場所へ安全・安心に同行</strong>します。</div>
+  <div class="section-text">文京区は坂道や段差が多く、湯島・本郷・千駄木など趣のある町並みが広がる一方で、視覚障害のある方にとっては「一人では不安」と感じる道も少なくありません。通院・買い物・散歩・文化施設への外出など、<strong>行きたい場所に安心して出かけるためのサポート</strong>を、エブリーサポート池袋がお手伝いします。ガイドヘルパーが同行することで、日常のちょっとした外出から、少し遠出のお出かけまで、幅広くご対応できます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>同行援護ってどんなサービス？こんな方が対象です</span>
+    <span>文京区の同行援護、どんな外出に使えますか？</span>
   </div>
-  <div class="section-text">同行援護は、<strong>視覚障害により移動に著しい困難がある方</strong>を対象とした障害福祉サービスです。ヘルパーが隣に寄り添い、移動の介助・代読・代筆・情報提供などを行います。<br>「病院の予約票が読めない」「スーパーで商品の値段や種類を確認したい」「久しぶりに公園を散歩したい」など、日常のさまざまな外出シーンに対応しています。介護保険とは別の制度ですので、障害支援区分の認定を受けた方はぜひご相談ください。</div>
+  <div class="section-text">東大病院・順天堂病院など大きな病院が多い文京区では、<strong>通院時の付き添い</strong>のご依頼を多くいただいています。また根津神社の散策、本郷周辺の図書館や文化施設へのお出かけ、スーパーや薬局などへの買い物支援にも対応しています。「ひとりでは不安だけど、行ってみたい場所がある」という方のご希望を大切にしながら、無理のないペースで外出のサポートをいたします。<strong>コンサートや趣味の集まり</strong>への同行も歓迎です。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>豊島区に拠点、だから文京区もスムーズに対応できます</span>
+    <span>豊島区に事業所があるから、文京区にもすぐ行けます</span>
   </div>
-  <div class="section-text">私たちのオフィスは豊島区要町にあり、<strong>文京区とは隣接しているため移動時間のロスが少なく、迅速にヘルパーを派遣</strong>できます。交通費は全額支給・直行直帰のため、ヘルパーのコスト負担も最小限。<br>文京区内の医療機関や区の施設、地域の商店街など、ヘルパーが土地勘を持って同行できるよう情報共有を徹底しています。初回のご相談では、普段の外出先や不安なルートなどをじっくりお聞きします。<strong>「こんなこと頼めるの？」という小さな疑問もお気軽にどうぞ。</strong></div>
+  <div class="section-text">エブリーサポート池袋の事業所は豊島区要町にあり、文京区とは隣接しています。<strong>交通費は全額支給・直行直帰での対応</strong>が可能なため、スタッフが文京区内へスムーズに伺えます。「豊島区の事業所だから対応してもらえるか不安」という方もご安心ください。はじめてのご利用の方も、まずはお気軽にご連絡いただき、<strong>どんな外出に使いたいか</strong>を一緒に整理するところから始めましょう。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>自薦ヘルパーの登録もOK｜信頼できる方と一緒に始められます</span>
+    <span>ご利用の流れ・はじめての方へ</span>
   </div>
-  <div class="section-text">「以前からお世話になっているヘルパーさんに引き続き担当してほしい」という方へ。エブリーサポート池袋では、<strong>利用者の方が自分で連れてきたヘルパー（自薦ヘルパー）の登録・雇用にも対応</strong>しています。<br>新しいヘルパーと関係を築き直す不安がなく、安心してサービスをスタートできます。登録の手続きや条件についても丁寧にご説明しますので、まずはお電話またはメールでお問い合わせください。</div>
+  <div class="section-text">同行援護のご利用には、<strong>障害福祉サービスの受給者証</strong>が必要です。まだお持ちでない方や申請方法がわからない方も、ご相談いただければ手続きの進め方についてご説明します。受給者証をお持ちの方は、ご希望の外出内容や頻度をお聞かせいただき、スタッフのご紹介・日程調整を行います。<strong>「週1回だけ使いたい」「まず一度試してみたい」</strong>というご要望にも柔軟に対応しますので、どうぞお気軽にお問い合わせください。</div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/guide/guide_residential_walk_010.webp" alt="同行援護の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -200,27 +248,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    文京区内の大学病院への通院にも同行してもらえますか？
+    文京区に住んでいますが、事業所が豊島区でも利用できますか？
   </div>
-  <div class="faq-a">はい、対応可能です。東京大学医学部附属病院や順天堂医院など、文京区内の大きな医療機関への通院同行は多くご依頼いただいています。受付での手続きや診察室への移動、処方箋の受け取りまでしっかりサポートします。駐車場・バス停・地下鉄駅からのルートについても事前に確認してから伺いますので、初めての受診でも安心してください。</div>
+  <div class="faq-a">はい、対応可能です。エブリーサポート池袋の事業所は豊島区要町にありますが、文京区は隣接しており、スタッフが直行直帰で伺える体制を整えています。交通費も全額支給しているため、移動面での制約はありません。まずはご相談ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    文京区は坂道が多いのですが、移動が大変な場所でも対応できますか？
+    週1回・短時間だけでも同行援護を利用できますか？
   </div>
-  <div class="faq-a">もちろんです。白山・本郷・小石川など、文京区は高低差のある地形が多い地域です。ヘルパーは事前にルートを確認し、段差・坂道・工事中の迂回路なども含めて安全に誘導できるよう準備します。不安なルートや「この道は避けてほしい」といったご要望も遠慮なくお伝えください。一緒に最適な外出プランを考えます。</div>
+  <div class="faq-a">もちろんです。「月に数回だけ通院の付き添いをお願いしたい」「週1回の買い物だけ手伝ってほしい」といったご利用も歓迎しています。利用頻度や時間は、受給者証に定められた支給量の範囲内で、ご本人のご希望に合わせて柔軟に調整できます。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    文京区に住んでいますが、サービス開始までどのくらいかかりますか？
+    東大病院や順天堂病院への通院に同行してもらえますか？
   </div>
-  <div class="faq-a">お問い合わせから担当者との面談・ヘルパーのマッチングを経て、早ければ数週間以内にサービスを開始できるケースもあります。ただし、障害福祉サービスの受給者証がまだお手元にない場合は、文京区の窓口への申請が必要です。申請の流れやご準備いただくものについても一緒に確認しますので、「まだ何も決まっていない」という段階でも気軽にご相談ください。</div>
+  <div class="faq-a">はい、対応しています。文京区内の大学病院や診療所への通院付き添いは、よくご依頼いただく内容のひとつです。院内での移動サポートや、受付・会計の補助なども含めて対応できます。受診内容や所要時間などをお聞かせいただければ、適切なスタッフをご紹介します。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -231,9 +281,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
