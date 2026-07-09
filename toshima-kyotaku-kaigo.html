@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>豊島区の居宅介護｜身体介護・生活援助を日常の暮らしに寄り添ってお届けします</title>
+<title>豊島区の居宅介護（身体介護・生活援助）｜日々の暮らしに寄り添うホームヘルプサービス</title>
 <meta name="description" content="豊島区の居宅介護（身体・生活援助）はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,7 +20,7 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "豊島区を中心に居宅介護（身体介護・生活援助）を提供する障害福祉サービス事業所です。障害福祉サービス・介護保険の両制度に対応し、日常生活のサポートを丁寧に行います。",
+  "description": "豊島区を拠点に、居宅介護（身体介護・生活援助）を提供する障害福祉サービス事業所。介護保険・障害福祉サービス両方に対応し、入浴・排泄・食事介助から掃除・洗濯・買い物・調理まで日々の暮らしを幅広くサポートします。",
   "areaServed": [
     "豊島区",
     "板橋区",
@@ -88,6 +88,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -95,7 +113,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">豊島区 / 居宅介護（身体・生活援助）</div>
-  <h1>豊島区の居宅介護｜身体介護・生活援助を日常の暮らしに寄り添ってお届けします</h1>
+  <h1>豊島区の居宅介護（身体介護・生活援助）｜日々の暮らしに寄り添うホームヘルプサービス</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
@@ -122,6 +140,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_walk_street_002.webp" alt="豊島区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -138,38 +158,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>豊島区で「毎日の生活」を続けるための介護サポート</span>
+    <span>豊島区で「毎日の生活」をもっと安心して続けるために</span>
   </div>
-  <div class="section-text">池袋を中心に商業施設や病院が集まる豊島区は、利便性が高い一方で、坂道や人混みなど日常の移動に負担を感じる方も少なくありません。エブリーサポート池袋は<strong>豊島区内を中心に、身体介護・生活援助の居宅介護サービス</strong>を提供しています。「家での生活を続けたい」「もう少し身の回りのことをサポートしてほしい」という方の声に、丁寧に応えます。</div>
+  <div class="section-text">池袋や巣鴨、駒込など多様な街が混在する豊島区。賑やかなエリアの一方で、高齢化が進む住宅街も多く、「一人では身の回りのことが難しくなってきた」と感じている障害のある方や、そのご家族からのご相談を多くいただいています。<br>エブリーサポート池袋では、<strong>身体介護（入浴・排泄・食事などの介助）</strong>と<strong>生活援助（掃除・洗濯・買い物・調理など）</strong>の両方に対応しています。介護保険サービスとの組み合わせも可能ですので、「どちらで使えるの？」という疑問もまずはご相談ください。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>こんな方にご利用いただいています</span>
+    <span>こんな方のご依頼をお受けしています</span>
   </div>
-  <div class="section-text">・<strong>入浴・排泄・食事などの身体介護</strong>が必要な方<br>・買い物・調理・掃除・洗濯などの<strong>生活援助</strong>を希望する方<br>・障害福祉サービス（介護給付）を利用されている方<br>・介護保険と障害福祉の<strong>どちらに当てはまるか迷っている</strong>方<br><br>制度の違いや申請手続きも、わかりやすくご説明します。初めての方も安心してご相談ください。</div>
+  <div class="section-text">豊島区にお住まいで、こんなことにお困りではありませんか？<br><br>・<strong>一人で入浴や着替えが難しくなってきた</strong><br>・家の掃除や洗濯が追いつかず、生活環境が気になっている<br>・通院のための準備や外出前後のサポートが必要<br>・家族が毎日サポートするのが体力的・時間的に難しくなってきた<br><br>障害福祉サービスとして居宅介護を利用するには受給者証が必要ですが、まだ手続きをしていない方も、<strong>「何から始めればいいか」</strong>という段階からご相談いただけます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>地元・豊島区に拠点を置くからできるきめ細かな対応</span>
+    <span>豊島区の地域の流れを知るスタッフが、生活全体を一緒に考えます</span>
   </div>
-  <div class="section-text">エブリーサポート池袋の事務所は<strong>要町・池袋エリア</strong>にあります。担当スタッフが地域の地理感覚を持ちながら動けるため、急なご相談や柔軟なスケジュール調整も対応しやすい環境です。「週に数回だけ頼みたい」「まず試してみたい」という段階でも、<strong>一緒に無理のないプランを考えます</strong>。お気軽にお問い合わせください。</div>
+  <div class="section-text">エブリーサポート池袋は<strong>豊島区・要町に拠点</strong>を置く事業所です。近隣の地域事情をよく知るスタッフが対応しているため、「近くのスーパーへの買い物同行」「地域の病院への通院サポート」など、日常のリアルな場面でのお手伝いをきめ細かく行います。<br>「週に数回だけお願いしたい」「特定の曜日だけ来てほしい」といった柔軟な要望にも、できる限り寄り添います。一度話を聞かせていただくことで、どんなサービスの形が合っているか一緒に整理することができます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>サービス利用までの流れと料金について</span>
+    <span>まずは「話を聞いてほしい」だけでも大丈夫です</span>
   </div>
-  <div class="section-text">①お問い合わせ（電話・メール・フォームいずれでも可）<br>②現在の状況やご希望をヒアリング<br>③担当者がご自宅や相談場所を訪問し、ケアプランをご相談<br>④ご契約・サービス開始<br><br>料金は<strong>障害福祉サービスの公定単価</strong>に基づき、利用者負担は原則1割（収入に応じて上限あり）です。受給者証をお持ちでない方も、取得手続きからご案内できます。</div>
+  <div class="section-text">「本当にサービスが使えるのかわからない」「費用がどのくらいかかるか心配」「家に他人を入れることに不安がある」——そんな気持ちはとても自然なことです。<br>エブリーサポート池袋では、<strong>電話・メール・問い合わせフォーム</strong>からお気軽にご連絡いただけます。まずは状況をお聞きするところから始めますので、正式な申し込みの前段階でも遠慮なくご相談ください。<br>受付時間：<strong>平日9:00〜18:00</strong>／電話：<strong>03-5926-9187</strong></div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/body/body_water_010.webp" alt="居宅介護（身体・生活援助）の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -199,27 +248,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    豊島区に住んでいますが、障害福祉サービスの受給者証がまだありません。相談できますか？
+    豊島区に住んでいますが、受給者証をまだ持っていません。相談できますか？
   </div>
-  <div class="faq-a">はい、受給者証のない段階からご相談いただけます。豊島区の障害福祉課への申請手続きや、サービス等利用計画の作成支援なども含めてご案内しますので、「どこから始めればよいかわからない」という方もお気軽にご連絡ください。</div>
+  <div class="faq-a">はい、もちろんご相談いただけます。障害福祉サービスの居宅介護を利用するには豊島区への申請と受給者証の取得が必要ですが、「何から始めればいいかわからない」という段階からお話を聞きます。必要に応じて区の窓口や相談支援事業所への繋ぎ方もご案内できますので、一人で抱え込まずにまずご連絡ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    週に1〜2回など、少ない回数でも利用できますか？
+    週1回・1時間だけの利用でも受け付けてもらえますか？
   </div>
-  <div class="faq-a">もちろんです。週1回からのご利用も承っています。まずは「どんな場面でどのくらいサポートが必要か」を一緒に整理し、生活リズムに合ったプランをご提案します。利用頻度は後から変更することも可能です。</div>
+  <div class="faq-a">週1回や短時間のご依頼にも対応しています。「まず試してみたい」「特定の曜日だけお願いしたい」といったご要望もお気軽にお伝えください。サービスの量や頻度は、ご利用者の受給者証の支給量の範囲内で、生活スタイルに合わせて一緒に考えていきます。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    池袋周辺は移動や買い物のサポートもお願いできますか？
+    身体介護と生活援助、どちらが必要か自分では判断できません。
   </div>
-  <div class="faq-a">居宅介護の生活援助の範囲内で、近隣スーパーへの買い物同行や代行をお手伝いできます。池袋周辺は商業施設が多く便利な反面、混雑する場面も多いため、スタッフが状況に応じてサポートします。外出に特化した「同行援護」についても対応していますので、詳しくはご相談ください。</div>
+  <div class="faq-a">ご自身やご家族で判断が難しいのは当然のことです。たとえば「入浴介助が必要か、掃除サポートだけでいいのか」といった区別は、実際の生活状況を聞いてからでないと整理しにくいものです。お電話やフォームでざっくりと現在の状況をお話しいただければ、どのサポートが合っているか一緒に考えます。相談支援専門員がいる場合は連携しながら進めることもあります。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -230,9 +281,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
