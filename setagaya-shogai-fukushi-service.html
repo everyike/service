@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,14 +20,9 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "世田谷区にお住まいの障害のある方・ご家族・支援者に向けた障害福祉サービスのご案内。重度訪問介護（24時間対応・自薦ヘルパー登録可）・同行援護・居宅介護に対応。東京23区全域に対応可能です。",
+  "description": "エブリーサポート池袋（株式会社クレオズ）は、重度訪問介護・同行援護・居宅介護などの障害福祉サービスを提供する事業所です。世田谷区を含む東京23区全域に対応しています。",
   "areaServed": [
     "世田谷区",
-    "豊島区",
-    "板橋区",
-    "練馬区",
-    "文京区",
-    "新宿区",
     "東京23区"
   ]
 }
@@ -90,6 +85,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -124,6 +137,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_walk_street_002.webp" alt="世田谷区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -140,38 +155,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>世田谷区で障害福祉サービスをお探しの方へ</span>
+    <span>世田谷区にお住まいの方へ：あなたの生活に合ったサポートを一緒に考えます</span>
   </div>
-  <div class="section-text">世田谷区は東京23区の中でも人口が最多で、広大なエリアに多様な生活環境が広がっています。三軒茶屋・下北沢・二子玉川など個性豊かな街が点在する一方、「自分の暮らす地域で、信頼できる障害福祉サービスを見つけにくい」というお声も聞かれます。<br>エブリーサポート池袋（株式会社クレオズ）は豊島区に拠点を持ちながら、<strong>東京23区全域への対応が可能</strong>です。世田谷区にお住まいの障害のある方・ご家族・相談員の皆さまも、どうぞお気軽にご相談ください。</div>
+  <div class="section-text">世田谷区は東京23区の中でも人口が多く、住宅街・商店街・緑豊かな公園が混在する多様な生活環境の街です。自宅でのケアを中心に暮らしを整えたい方、外出を楽しみたい方、夜間も安心して過ごしたい方——それぞれに異なるニーズがあります。<br><br>エブリーサポート池袋（株式会社クレオズ）は、豊島区に拠点を置きながら、<strong>東京23区全域に対応</strong>しており、世田谷区の方からのご相談も随時受け付けています。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>対応できるサービスは3種類。あなたのニーズに合わせて一緒に考えます</span>
+    <span>対応しているサービスの種類と、どんな方が利用できるか</span>
   </div>
-  <div class="section-text"><strong>■ 重度訪問介護</strong>：重度の肢体不自由・知的障害・精神障害のある方を対象に、24時間365日の長時間ケアに対応。夜間・宿泊支援も可能で、利用者自身が信頼するヘルパーを連れてこられる<strong>自薦ヘルパー制度</strong>にも対応しています。<br><strong>■ 同行援護</strong>：視覚障害のある方の外出をサポート。通院・買い物・お出かけなど、世田谷区内外への移動を丁寧に支援します。<br><strong>■ 居宅介護</strong>：身体介護・生活援助を通じて、ご自宅での日常生活をサポートします。</div>
+  <div class="section-text">■ <strong>重度訪問介護</strong>：重度の肢体不自由・知的障害・精神障害のある方が対象。日中・夜間・宿泊と長時間にわたるケアを得意としています。医療的ケア（喀痰吸引等）に対応したスタッフも在籍しています。<br><br>■ <strong>同行援護</strong>：視覚障害のある方の外出を安心してサポート。通院・買い物・地域のイベントなど、行きたい場所へのお手伝いをします。<br><br>■ <strong>居宅介護</strong>（身体介護・生活援助）：日常の家事・介助を通じて、住み慣れた自宅での生活を支えます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>世田谷区でも安心して利用できる理由</span>
+    <span>世田谷区からでも利用できる？交通費・エリアについて</span>
   </div>
-  <div class="section-text">当事業所のスタッフは<strong>交通費全額支給・直行直帰</strong>の体制で動いているため、世田谷区のどのエリアにも柔軟に訪問できます。また、CIL（自立生活センター）との連携実績があり、自立生活を目指す方の支援にも慣れています。<br>「どのサービスが使えるかわからない」「今のヘルパーを変えずに事業所だけ変えたい」など、複雑なご事情でも<strong>一緒に整理しながら対応策を考えます</strong>。まずはお電話またはフォームからお問い合わせください。</div>
+  <div class="section-text">「拠点が池袋なら、世田谷区は遠くて難しいのでは」と感じる方もいらっしゃいますが、ご安心ください。スタッフは<strong>直行直帰・交通費全額支給</strong>のしくみで動いており、23区内であれば柔軟に対応できます。<br><br>世田谷区は広いエリアにわたるため、担当スタッフの確保状況はお問い合わせ時にご確認ください。「まず相談だけしてみたい」という段階でも、お気軽にご連絡いただけます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>新規受け入れ受付中。まずはご連絡を</span>
+    <span>「誰に相談すればいいかわからない」そんな方もぜひご連絡ください</span>
   </div>
-  <div class="section-text">現在、世田谷区からの新規利用者のお問い合わせを受け付けています。<strong>「サービスを使えるか自信がない」「初めてで何を聞けばいいかわからない」</strong>という方でも大丈夫です。相談員・ケースワーカーの方からのお問い合わせも歓迎しております。<br>お電話は<strong>03-5926-9187（平日9:00〜18:00）</strong>、メールは<strong>info@everyike.tokyo</strong>までどうぞ。時間外はフォームからご連絡いただければ、翌営業日以降に丁寧にご返信します。</div>
+  <div class="section-text">障害福祉のサービスは、種類が多くて何から始めればよいかわからないという声をよく聞きます。受給者証をまだ取得していない方、支給量を増やせるか迷っている方、今のサービスに不満がある方——どんな段階でも、一緒に整理しながら考えます。<br><br>相談支援事業所や行政の窓口との連絡調整も、日常的なサービス提供の流れの中で対応することがあります。まずはお電話またはメールでお気軽にご連絡ください。</div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_station_004.webp" alt="障害福祉サービス全般の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -201,27 +245,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    世田谷区は豊島区から遠いですが、本当に対応できますか？
+    世田谷区は広いですが、どのエリアでも対応できますか？
   </div>
-  <div class="faq-a">はい、対応可能です。スタッフは交通費全額支給・直行直帰の体制で動いており、世田谷区内の二子玉川・成城・下北沢・三軒茶屋などのエリアにも訪問できます。重度訪問介護の長時間ケアの場合、スタッフが直接ご自宅に伺うため、事業所との距離はほとんど関係ありません。まずはエリアや曜日などの詳細をお聞かせいただき、対応可否をご案内します。</div>
+  <div class="faq-a">世田谷区は二子玉川・三軒茶屋・下北沢・成城など多様なエリアにわたっています。スタッフの担当状況によって対応可否が変わる場合があるため、まずはお住まいの地区とご希望のサービス内容をお知らせいただければ、具体的にご案内できます。「難しそう」と思わず、まずはご相談ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    世田谷区で自薦ヘルパー制度を使いたいのですが、登録できますか？
+    夜間だけ、または週1〜2回だけの利用でも申し込めますか？
   </div>
-  <div class="faq-a">はい、自薦ヘルパー（利用者が自分で見つけてきたヘルパー）の登録・雇用に対応しています。「信頼できる知人にヘルパーになってもらいたい」「以前のヘルパーと引き続き一緒に働きたい」という場合も、条件が整えば対応可能です。自薦ヘルパー制度の流れや必要な手続きについても丁寧にご説明しますので、まずはご相談ください。</div>
+  <div class="faq-a">はい、対応しています。重度訪問介護では夜間・宿泊のみのご依頼も受け付けており、居宅介護や同行援護も週1回・短時間からの利用が可能です。まずは受給者証に記載されている支給量の範囲内でご相談いただき、必要に応じて支給量の見直しについても一緒に考えます。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    重度訪問介護と居宅介護の違いがよくわかりません。どちらが合っているか教えてもらえますか？
+    医療的ケアが必要な家族がいますが、対応できるスタッフはいますか？
   </div>
-  <div class="faq-a">もちろんです。重度訪問介護は重度障害のある方を対象に、長時間・一体的な支援（生活全般の見守り・移動・コミュニケーション支援なども含む）を提供するサービスです。一方、居宅介護は身体介護や家事援助など、比較的短時間での生活サポートが中心です。利用者の状態・生活スタイル・支給決定の内容によって適したサービスが異なりますので、お問い合わせいただければ一緒に整理してご提案します。</div>
+  <div class="faq-a">喀痰吸引等の医療的ケアに対応した研修を受けたスタッフが在籍しています。ただし、必要なケアの内容によって対応できるかどうかが異なります。「こういったケアが必要なのですが」とご相談いただければ、現在のスタッフ状況をもとに正直にお伝えします。まずはお電話またはメールでお問い合わせください。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -232,9 +278,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
