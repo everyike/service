@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>文京区の重度訪問介護｜夜間・24時間対応と自薦ヘルパー登録もOK</title>
+<title>文京区の重度訪問介護｜夜間・24時間対応で長時間ケアも安心</title>
 <meta name="description" content="文京区の重度訪問介護（夜勤・24時間）はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,7 +20,7 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "文京区を含む東京23区全域で重度訪問介護（夜勤・24時間対応）を提供。自薦ヘルパー制度・医療的ケア対応スタッフも在籍。新規利用者受け入れ中。",
+  "description": "文京区で重度訪問介護（夜勤・24時間対応）を提供。夜間のみの依頼・長時間ケア・医療的ケア対応スタッフが在籍。自薦ヘルパー制度にも対応し、東京23区全域への直行直帰が可能です。",
   "areaServed": [
     "文京区",
     "豊島区",
@@ -89,6 +89,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -96,7 +114,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">文京区 / 重度訪問介護（夜勤・24時間）</div>
-  <h1>文京区の重度訪問介護｜夜間・24時間対応と自薦ヘルパー登録もOK</h1>
+  <h1>文京区の重度訪問介護｜夜間・24時間対応で長時間ケアも安心</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -127,6 +145,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_walk_street_002.webp" alt="文京区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -143,38 +163,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>文京区で夜間も安心できる重度訪問介護を探していませんか？</span>
+    <span>文京区で夜間も安心して暮らし続けるために</span>
   </div>
-  <div class="section-text">文京区は大学病院や専門医療機関が多く、医療的ケアが必要な重度障害のある方が地域で生活されているケースが少なくありません。しかし「夜間に対応できるヘルパーが見つからない」「長時間のケアを安定して頼める事業所がない」というお悩みをよく耳にします。<br>エブリーサポート池袋は<strong>24時間365日対応</strong>の重度訪問介護を提供しており、夜勤・日勤を組み合わせた柔軟なシフト調整が可能です。医療的ケア（喀痰吸引等）に対応したスタッフも在籍しています。</div>
+  <div class="section-text">本郷・小石川・音羽など、静かな住宅街が広がる文京区。大学病院や医療機関が多く、医療と生活が身近に共存するこの街でも、「夜間のケアが途切れないか不安」「24時間対応できるヘルパー事業所を探している」というご相談を多くいただきます。<br>エブリーサポート池袋は、<strong>夜勤・日勤を組み合わせた24時間365日対応</strong>が可能です。長時間ケアを得意としており、夜間だけのご依頼や宿泊対応についても、まずはお気軽にご相談ください。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>自薦ヘルパー制度に対応｜あなたが信頼できる人と一緒に暮らせる</span>
+    <span>重度訪問介護とは？こんな方が対象です</span>
   </div>
-  <div class="section-text">「自分で選んだヘルパーさんに来てほしい」——そんな思いをお持ちの方も多いのではないでしょうか。当事業所では<strong>自薦ヘルパー制度</strong>に対応しており、利用者さんが連れてきたヘルパーをスタッフとして登録・雇用することができます。<br>CIL（自立生活センター）との連携実績もあり、自立生活を目指す方の支援体制づくりにも積極的に取り組んでいます。「どう進めればいいかわからない」という段階からでも、一緒に考えます。</div>
+  <div class="section-text">重度訪問介護は、<strong>重度の肢体不自由・知的障害・精神障害のある方</strong>が、住み慣れた自宅で自分らしく生活を続けるための障害福祉サービスです。身体介護・生活援助・見守りを長時間にわたって一体的に提供できるのが大きな特徴です。<br>「週に何日か、夜間だけ入ってほしい」「日中と夜間を通したシームレスなサポートが必要」など、生活スタイルに合わせた柔軟な調整が可能です。まずは現在の状況をお聞かせください。一緒に考えます。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>文京区全域＋東京23区に対応｜交通費全額支給でヘルパーが来やすい</span>
+    <span>自薦ヘルパーの活用や医療的ケアについて</span>
   </div>
-  <div class="section-text">文京区は南北・東西に複数の地下鉄路線が通り、区内各地へのアクセスが良好です。当事業所は豊島区・要町を拠点としており、<strong>文京区全域への訪問が可能</strong>です。<br>ヘルパーには<strong>交通費全額支給・直行直帰</strong>を実施しているため、白山・本郷・小石川・千駄木など区内どのエリアでも担当者が安定して通いやすい環境を整えています。新規利用者の受け入れも行っていますので、まずはお気軽にご相談ください。</div>
+  <div class="section-text">重度訪問介護には、利用者ご自身が信頼できる方をヘルパーとして選べる<strong>「自薦ヘルパー制度」</strong>があります。「知人や家族の友人に入ってもらいたい」という場合も、制度の仕組みについてご説明できますので、お気軽にお問い合わせください。<br>また、<strong>喀痰吸引などの医療的ケアに対応できるスタッフ</strong>も在籍しています。文京区内はもちろん、交通費全額支給・直行直帰で東京23区全域に対応可能です。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>こんな方のご相談をお待ちしています</span>
+    <span>新規の方も受け入れ中。まずはご連絡を</span>
   </div>
-  <div class="section-text">・重度の肢体不自由があり、夜間も含めたサポートが必要な方<br>・知的障害・精神障害があり、長時間の見守り支援を希望される方<br>・医療的ケア（喀痰吸引など）が必要で、対応できる事業所を探している方<br>・今のヘルパーを引き続き使いたい（自薦ヘルパー制度を利用したい）方<br>・相談員や家族として、利用者に合った事業所を探している方<br><br><strong>「まだ受給者証がない」「どのサービスが使えるかわからない」という段階でもご相談いただけます。</strong></div>
+  <div class="section-text">「すぐに動けるか不安」「相談支援専門員がまだいない」という段階でも、遠慮なくご連絡ください。現在の状況を丁寧にお聞きしながら、必要な手続きや関係機関への連絡についても一緒に整理していきます。<br>お電話は<strong>平日9:00〜18:00（03-5926-9187）</strong>、またはメール・お問い合わせフォームからもご連絡いただけます。文京区内の新規ご利用者様の受け入れも積極的に行っています（空き状況は要相談）。</div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/heavy/heavy_reading_019.webp" alt="重度訪問介護（夜勤・24時間）の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -204,27 +253,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    文京区内の自宅まで本当に来てもらえますか？白山や千駄木など少し奥まったエリアでも大丈夫ですか？
+    文京区在住ですが、事業所が豊島区にあっても利用できますか？
   </div>
-  <div class="faq-a">はい、文京区全域に対応しています。白山・千駄木・本駒込・湯島など区内どのエリアも訪問可能です。当事業所は豊島区・要町が拠点で、都営三田線・東京メトロ南北線・千代田線などを利用することで文京区内各地へアクセスしやすい立地です。また、ヘルパーへの交通費全額支給・直行直帰制度を設けているため、遠方からでも安定して通いやすい体制を整えています。</div>
+  <div class="faq-a">はい、問題なくご利用いただけます。エブリーサポート池袋はスタッフが直行直帰で対応しており、交通費も全額支給しているため、文京区内のご自宅へスムーズにお伺いできます。東京23区全域が対応エリアですので、ご安心ください。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    夜間や宿泊の対応はどのくらいの頻度や時間帯まで対応できますか？
+    夜間だけのヘルパー派遣をお願いすることはできますか？
   </div>
-  <div class="faq-a">24時間365日対応を基本としており、夜勤（泊まり）・深夜帯の訪問にも対応しています。週に何日夜勤が必要か、何時から何時まで支援が必要かなど、利用者さんの生活リズムや支給量に合わせてシフトを組みます。「毎日夜間に見守りが欲しい」「特定の曜日だけ宿泊対応してほしい」といった個別のご要望もお気軽にご相談ください。</div>
+  <div class="faq-a">はい、夜間のみのご依頼にも対応しています。「就寝前の介助から翌朝の起床介助まで」といった夜勤帯だけのサポートも承っています。どのくらいの時間帯・頻度が必要かを一緒に確認しながら、生活リズムに合ったプランをご提案します。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    文京区には東京大学病院など大きな病院が多いですが、通院時の付き添いも重度訪問介護でお願いできますか？
+    喀痰吸引が必要な家族がいます。対応できるスタッフはいますか？
   </div>
-  <div class="faq-a">重度訪問介護は原則として居宅（自宅）での支援が中心となりますが、一定の条件のもとで外出時の支援も含まれます。東京大学病院・順天堂大学病院など区内の医療機関への移動中や待機中のサポートについては、受給者証の支給内容や自治体のルールによって異なります。詳細はご相談の際に一緒に確認しますので、まずはお問い合わせください。</div>
+  <div class="faq-a">はい、喀痰吸引など医療的ケアに対応できるスタッフが在籍しています。ただし、ケアの内容や状態によって対応できる範囲が異なる場合もありますので、まずはお電話またはお問い合わせフォームから具体的な状況をお知らせください。丁寧にご説明いたします。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -235,9 +286,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
