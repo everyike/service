@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>板橋区の障害福祉サービス｜重度訪問介護・同行援護・居宅介護に対応</title>
+<title>板橋区の障害福祉サービス｜重度訪問介護・同行援護・居宅介護、まずご相談ください</title>
 <meta name="description" content="板橋区の障害福祉サービス全般はエブリーサポート池袋へ。新規受け入れ相談可。自薦ヘルパー登録対応。お気軽にご相談ください。">
 <script type="application/ld+json">
 {
@@ -12,7 +12,7 @@
   "name": "エブリーサポート池袋（株式会社クレオズ）",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "要町2-26-5 メゾン池袋206",
+    "streetAddress": "要町2-26-5 メゾン池袋要町206",
     "addressLocality": "豊島区",
     "addressRegion": "東京都",
     "postalCode": "171-0043",
@@ -20,14 +20,14 @@
   },
   "telephone": "03-5926-9187",
   "url": "https://everyike.tokyo",
-  "description": "板橋区で重度訪問介護・同行援護・居宅介護などの障害福祉サービスを提供しています。24時間365日対応・自薦ヘルパー登録可能。豊島区要町拠点、東京23区全域対応。",
+  "description": "板橋区を含む東京23区で、重度訪問介護・同行援護・居宅介護などの障害福祉サービスを提供しています。24時間365日対応可能。医療的ケア対応スタッフも在籍し、新規利用者のご相談を受け付けています。",
   "areaServed": [
-    "板橋区",
-    "豊島区",
-    "練馬区",
-    "文京区",
-    "新宿区",
-    "東京23区"
+    "東京都板橋区",
+    "東京都豊島区",
+    "東京都練馬区",
+    "東京都文京区",
+    "東京都新宿区",
+    "東京都23区"
   ]
 }
 </script>
@@ -89,6 +89,24 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .company-info{background:#fff;border-radius:10px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);font-size:0.87em;line-height:2;color:#444}
 .company-info strong{color:#1a3a5c;display:block;margin-bottom:4px}
 
+/* 画像 */
+.job-img{width:100%;max-height:320px;object-fit:cover;display:block;border-radius:10px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+
+/* サービス開始までの流れ */
+.flow-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.flow-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:14px}
+.flow-steps{display:flex;flex-direction:column}
+.flow-step{display:flex;align-items:center;gap:12px;padding:8px 0}
+.flow-step-num{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#2ea87e;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85em}
+.flow-step-text{font-size:0.9em;color:#333;font-weight:600}
+.flow-arrow{color:#2ea87e;font-size:0.85em;padding-left:14px;margin:-2px 0}
+
+/* 対応できること */
+.support-block{background:#fff;border-radius:10px;padding:18px 16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07)}
+.support-block h2{font-size:0.97em;font-weight:700;color:#1a3a5c;margin-bottom:12px}
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.support-item{display:flex;align-items:center;gap:8px;background:#f4faf7;border-radius:6px;padding:10px 12px;font-size:0.87em;color:#1a3a5c;font-weight:600}
+
 footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top:1px solid #e8e8e8}
 </style>
 </head>
@@ -96,7 +114,7 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 
 <div class="hero">
   <div class="hero-label">板橋区 / 障害福祉サービス全般</div>
-  <h1>板橋区の障害福祉サービス｜重度訪問介護・同行援護・居宅介護に対応</h1>
+  <h1>板橋区の障害福祉サービス｜重度訪問介護・同行援護・居宅介護、まずご相談ください</h1>
   <div class="hero-badges">
       <div class="badge-item">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
@@ -123,6 +141,8 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
   <div class="cta-note">電話受付：平日 9:00〜18:00｜相談・見学費用 0円</div>
 </div>
 
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_bicycle_morning_009.webp" alt="板橋区での訪問介護の様子" loading="lazy">
+
 <!-- 数字バッジ -->
 <div class="stat-row">
     <div class="stat-card">
@@ -139,38 +159,67 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
     </div>
 </div>
 
+<!-- サービス開始までの流れ -->
+<div class="flow-block">
+  <h2>🚶 サービス開始までの流れ</h2>
+  <div class="flow-steps">
+    <div class="flow-step"><div class="flow-step-num">1</div><div class="flow-step-text">お電話・フォームでご相談</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">2</div><div class="flow-step-text">ご自宅・面談でのご見学（無料）</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">3</div><div class="flow-step-text">ご契約・支援計画の作成</div></div>
+    <div class="flow-arrow">↓</div>
+    <div class="flow-step"><div class="flow-step-num">4</div><div class="flow-step-text">サービス利用開始</div></div>
+  </div>
+</div>
+
 <!-- コンテンツセクション -->
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>板橋区にお住まいの障害のある方・ご家族の方へ</span>
+    <span>板橋区にお住まいの方へ：生活の形に合わせたサポートを一緒に考えます</span>
   </div>
-  <div class="section-text">板橋区は緑豊かな住宅街が広がる一方、高島平や成増など交通の便が異なるエリアが混在しています。「自宅での長時間ケアを任せられる事業所が見つからない」「外出に付き添ってくれる人がほしい」など、お悩みはひとつひとつ違います。<br>エブリーサポート池袋（株式会社クレオズ）は豊島区要町を拠点に、<strong>板橋区全域での障害福祉サービス</strong>を提供しています。お気軽にご相談ください。</div>
+  <div class="section-text">板橋区は志村や常盤台など住宅地が広がり、長年この街で生活を続けてきた障害のある方やそのご家族も多くいらっしゃいます。「サービスを使いたいけど、どこに相談すればいいかわからない」「いまの生活を少しでも楽にしたい」——そんな気持ちから始めていただいて大丈夫です。エブリーサポート池袋は、<strong>重度訪問介護・同行援護・居宅介護</strong>の3つのサービスを提供しており、板橋区のご利用者さまからのご相談にも対応しています。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-    <span>板橋区で対応できる3つのサービス</span>
+    <span>どのサービスが自分に合うの？3つの支援を分かりやすく説明します</span>
   </div>
-  <div class="section-text"><strong>① 重度訪問介護</strong>：重度の肢体不自由・知的障害・精神障害のある方の自宅での生活を、24時間365日体制でサポートします。夜間・宿泊対応も可能です。<br><strong>② 同行援護</strong>：視覚障害のある方の外出をサポート。通院・買い物・文化活動への外出など、板橋区内の移動を一緒にお手伝いします。<br><strong>③ 居宅介護（身体介護・生活援助）</strong>：日常の身の回りのケアや家事支援を行います。介護保険・障害福祉どちらも対応可能です。</div>
+  <div class="section-text"><strong>重度訪問介護</strong>は、重度の肢体不自由・知的障害・精神障害のある方が対象で、自宅での長時間ケアや夜間・宿泊対応が可能です。<br><strong>同行援護</strong>は、視覚障害のある方が安心して外出できるよう、買い物・通院・趣味の外出などに付き添うサービスです。<br><strong>居宅介護</strong>は、身体介護や生活援助で日々の暮らしを支えます。「どれが使えるかわからない」という段階でも、一緒に確認しますのでお気軽にご相談ください。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>「自薦ヘルパー」に対応しているから、信頼できる人にケアを頼める</span>
+    <span>板橋区から池袋事務所へ——距離を感じさせない対応を心がけています</span>
   </div>
-  <div class="section-text">重度訪問介護では、<strong>利用者さん自身が連れてきたヘルパー（自薦ヘルパー）</strong>をエブリーサポート池袋で登録・雇用することができます。「長年サポートしてくれている人に続けてケアをお願いしたい」「自分で信頼できる人を選びたい」というご希望に応えられる仕組みです。板橋区から通えるヘルパーさんでも登録を受け付けていますので、まずはご相談ください。</div>
+  <div class="section-text">当事業所は豊島区池袋エリアに拠点を置いていますが、板橋区とは隣接しており、ヘルパーは<strong>交通費全額支給・直行直帰</strong>の体制で動いています。志村坂上・大山・中板橋・成増など板橋区内の各エリアへも対応可能です（状況により要相談）。「遠いから難しいかも」とあきらめる前に、まず一度ご連絡ください。現在の空き状況や対応可否を丁寧にお伝えします。</div>
 </div>
 
 <div class="section-block">
   <div class="section-heading">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    <span>ご相談から利用開始まで、一緒に考えます</span>
+    <span>新規のご利用者さまも受け付けています。こんな方にご連絡いただいています</span>
   </div>
-  <div class="section-text">「どのサービスが自分に合っているかわからない」「今のヘルパー事業所から変えたいけど不安」そんなお気持ちもよく聞かせていただきます。<br>受付時間は<strong>平日9:00〜18:00（電話：03-5926-9187）</strong>です。時間外はメール（info@everyike.tokyo）やお問い合わせフォームもご利用いただけます。はじめての方もどうぞお気軽にご連絡ください。</div>
+  <div class="section-text">「退院後の在宅生活に不安がある」「今のヘルパー事業所だと夜間対応が難しい」「家族の介護負担を減らしたい」——このようなご状況の方から多くご相談をいただいています。また、<strong>医療的ケア（喀痰吸引等）</strong>に対応できるスタッフも在籍しており、医療依存度の高い方の支援も可能です。難しいご事情でも、まず話だけでも聞かせてください。一緒に考えることから始めましょう。</div>
+</div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/hero/hero_visit_evening_008.webp" alt="障害福祉サービス全般の様子" loading="lazy">
+
+<!-- 対応できること -->
+<div class="support-block">
+  <h2>✅ 対応できること</h2>
+  <div class="support-grid">
+    <div class="support-item">🚻 トイレ介助</div>
+    <div class="support-item">🛁 入浴介助</div>
+    <div class="support-item">🍳 調理・食事介助</div>
+    <div class="support-item">🏥 通院同行</div>
+    <div class="support-item">🚶 外出・移動支援</div>
+    <div class="support-item">🛒 買い物同行</div>
+  </div>
 </div>
 
 <!-- サービス一覧 -->
@@ -200,27 +249,29 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    板橋区の自宅まで来てもらえますか？豊島区が拠点とのことで距離が心配です。
+    板橋区在住ですが、エリア外になりませんか？
   </div>
-  <div class="faq-a">はい、板橋区全域に対応しています。当事業所は豊島区要町が拠点ですが、板橋区とは隣接しており、スタッフが交通費全額支給・直行直帰でお伺いできます。高島平・成増・赤塚・志村など各エリアへの対応実績もありますので、まずはご相談ください。</div>
+  <div class="faq-a">板橋区は当事業所がある豊島区と隣接しており、多くのエリアで対応可能です。志村・大山・常盤台・成増など区内の各地域についても個別にご確認できますので、まずお気軽にお問い合わせください。スタッフの直行直帰体制により、移動面の負担を最小限にしながら対応しています。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    板橋区で重度訪問介護を利用したいのですが、夜間や宿泊にも対応していますか？
+    週に何回から利用できますか？短時間だけでも大丈夫ですか？
   </div>
-  <div class="faq-a">はい、24時間365日対応しています。夜勤・宿泊を含む長時間ケアを得意としており、「昼間だけでなく夜も安心したい」「家族の負担を減らしたい」というご家庭にも多くご利用いただいています。現在の空き状況はお電話またはフォームにてご確認ください。</div>
+  <div class="faq-a">利用頻度・時間は、支給決定の内容や生活スタイルに合わせて柔軟に対応しています。「週1回だけ」「数時間だけ試したい」という方でもご相談いただけます。まずご利用者さまのご状況をお聞きし、どのような形が合っているか一緒に考えていきます。</div>
 </div>
 
 <div class="faq-item">
   <div class="faq-q">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2ea87e" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-    板橋区内の病院への通院や外出支援もお願いできますか？
+    夜間や泊まりの対応はしてもらえますか？
   </div>
-  <div class="faq-a">同行援護（視覚障害のある方対象）・居宅介護の外出支援として、板橋区内の病院や施設への外出同行が可能です。板橋区は区内に複数の総合病院があり、公共交通でのアクセスが複雑な場所もありますが、慣れたスタッフが安心してご案内します。対象サービスやご要望についてはお気軽にご相談ください。</div>
+  <div class="faq-a">重度訪問介護では、夜間・宿泊を含む24時間365日の対応が可能です。「夜間だけお願いしたい」「家族が不在のときの泊まりを頼みたい」といったご要望にも対応しています。具体的な対応時間帯や体制については、現在の状況をふまえてお伝えしますので、まずご相談ください。</div>
 </div>
 </div>
+
+<img class="job-img" src="https://everyike.github.io/everyike/images/team/team_all_ages.webp" alt="20代から70代まで幅広い年代が活躍するエブリーサポート池袋のスタッフ集合写真" loading="lazy">
 
 <!-- 下部CTA -->
 <div class="cta-bottom">
@@ -231,9 +282,10 @@ footer{text-align:center;color:#aaa;font-size:0.78em;padding-top:16px;border-top
 </div>
 
 <!-- 事業所情報 -->
+<img class="job-img" src="https://everyike.github.io/everyike/images/office/office_exterior.webp" alt="エブリーサポート池袋 事務所外観" loading="lazy">
 <div class="company-info">
   <strong>エブリーサポート池袋（株式会社クレオズ）</strong>
-  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋206<br>
+  〒171-0043 東京都豊島区要町2-26-5 メゾン池袋要町206<br>
   TEL：<a href="tel:0359269187" style="color:#1a7a56">03-5926-9187</a>（平日9:00〜18:00）<br>
   MAIL：info@everyike.tokyo<br>
   対応エリア：東京23区全域（重度訪問介護）／豊島区・近隣区（その他サービス）
